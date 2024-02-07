@@ -4,15 +4,12 @@ import React from 'react';
 const Navbar = () => {
     return (
         <div>
-            <ul className='flex gap-4'>
+            <ul className='flex justify-between max-w-3xl mx-auto my-4 bg-slate-600 p-3 text-white'>
                 <li>
-                    <Link href={'/'}>Home</Link>
+                    <Link className='text-2xl font-bold' href={'/'}>Nazmu's</Link>
                 </li>
                 <li>
-                    <Link href={'/'}>About</Link>
-                </li>
-                <li>
-                    <Link href={'/'}>Contact</Link>
+                    <Link className='bg-white p-2 text-black' href={'/'}>Add Topic</Link>
                 </li>
             </ul>
         </div>
