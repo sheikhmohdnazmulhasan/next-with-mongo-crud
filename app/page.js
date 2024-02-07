@@ -1,6 +1,11 @@
+import TopicList from "@/components/TopicList";
+
 export default function Home() {
     return (
-
-        <p>Hello World</p>
+       <div className="">
+         <TopicList />
+        <TopicList />
+        <TopicList />
+       </div>
     )
 }
