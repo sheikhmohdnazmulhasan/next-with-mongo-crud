@@ -9,7 +9,7 @@ const Navbar = () => {
                     <Link className='text-2xl font-bold' href={'/'}>Nazmu's</Link>
                 </li>
                 <li>
-                    <Link className='bg-white p-2 text-black' href={'/'}>Add Topic</Link>
+                    <Link className='bg-white p-2 text-black' href={'/add-topic'}>Add Topic</Link>
                 </li>
             </ul>
         </div>
