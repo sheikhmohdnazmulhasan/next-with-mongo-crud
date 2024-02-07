@@ -11,7 +11,7 @@ const TopicList = () => {
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium, eius.</p>
             </div>
             <div className="flex gap-4">
-                <Link href={'/topic-list/edit/123'}><CiEdit size={24} /></Link>
+                <Link href={'/edit-topic/123'}><CiEdit size={24} /></Link>
                 <MdDelete size={24} />
             </div>
         </div>
