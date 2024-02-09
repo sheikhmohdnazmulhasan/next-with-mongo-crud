@@ -24,8 +24,9 @@ const AddTopic = () => {
             });
 
             if (res.ok) {
+                router.refresh()
                 router.push('/');
-                
+
             } else {
                 throw new Error('failed to create new topics');
             }
