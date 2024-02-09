@@ -32,7 +32,7 @@ const TopicList = async () => {
                     <p>{t?.description}</p>
                 </div>
                 <div className="flex gap-4">
-                    <Link href={'/edit-topic/123'}><CiEdit size={24} /></Link>
+                    <Link href={`/edit-topic/${t._id}`}><CiEdit size={24} /></Link>
                     <MdDelete size={24} />
                 </div>
             </div>)}
