@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 import { CiEdit } from "react-icons/ci";
-import { MdDelete } from "react-icons/md";
+import RemoveTopic from './RemoveTopic';
 
 const getTopics = async () => {
     try {
@@ -33,7 +33,7 @@ const TopicList = async () => {
                 </div>
                 <div className="flex gap-4">
                     <Link href={`/edit-topic/${t._id}`}><CiEdit size={24} /></Link>
-                    <MdDelete size={24} />
+                    <RemoveTopic id={t._id} />
                 </div>
             </div>)}
         </>
